@@ -1,5 +1,5 @@
 # HOW TO GENERATE THE SSH KEYS.
-* Author: Waython Yesse.
+### Author: Waython Yesse.
 
 * First of  all, go to your root directory and create a directory called .ssh, in this step you will use the mkdir command, i.e, "mkdir .ssh"
    * The .ssh directory is the directory that will store your ssh keys.
