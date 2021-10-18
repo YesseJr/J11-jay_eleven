@@ -11,6 +11,6 @@
 * Now create your ssh keys by using the following command: ssh-keygen -t rsa -C "youremail@you.com"
    * This will create both id_rsa and id_rsa.pub files.
 
-* Open the id_rsa.pub file and copy it's contents exactly as it appears, with no additional spaces or lines, and paste it into your github account unger the account settings > SSH keys.
+* Open the id_rsa.pub file and copy it's contents exactly as it appears, with no additional spaces or lines, and paste it into your github account under the account settings > SSH keys.
 
 * Now you have added your ssh keys into your github account, successfully.
