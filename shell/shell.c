@@ -34,7 +34,7 @@ void init_shell()
 	char* username = getenv("USER");
 	printf("\n\n\nUSER is: @%s", username);
 	printf("\n");
-	sleep(1);
+	sleep(10);
 	clear();
 }
 
@@ -140,17 +140,18 @@ void execArgsPiped(char** parsed, char** parsedpipe)
 // Help command builtin
 void openHelp()
 {
-	puts("\n***WELCOME TO MY SHELL HELP***"
-		"\nCopyright @ Suprotik Dey"
-		"\n-Use the shell at your own risk..."
+	puts("\n** HELLO, WELCOME TO MY SHELL HELP **"
+		"\nCopyright @ Captain Yesse Jr."
+		"\n-I'm here to help you..."
 		"\nList of Commands supported:"
-		"\n>cd"
-		"\n>ls"
-		"\n>exit"
-		"\n>all other general commands available in UNIX shell"
-		"\n>pipe handling"
-		"\n>improper space handling");
-
+		"\n> cd"
+		"\n> ls"
+		"\n> exit"
+		"\n> all other general commands available in UNIX shell"
+		"\n> pipe handling"
+		"\n> improper space handling"
+        "\n> I hope it will help you buddy!");
+ss
 	return;
 }
 
