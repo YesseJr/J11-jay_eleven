@@ -8,7 +8,7 @@
    * Your .ssh directory should contain two files, namelly, id_rsa and id_rsa.pub, but this time around, your directory is empty.
    * In addition, id_rsa and id_rsa.pub are the files that tell your computer how to communicate with the github or any git service, and github will recognize them by default.
 
-* Now create your ssh keys by using the following command: ssh-keygen -t rsa -C "youremail@you.com"
+* Now create your ssh keys by using the following command: ssh-keygen -t rsa -C "waythonny@yahoo.com" | you will use your own email here |
    * This will create both id_rsa and id_rsa.pub files.
 
 * Open the id_rsa.pub file and copy it's contents exactly as it appears, with no additional spaces or lines, and paste it into your github account under the account settings > SSH keys.
